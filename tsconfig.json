@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "declaration": true,
+      "declarationMap": true,
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "strict": true,
+      "noImplicitAny": false,
+      "diagnostics": false,
+      "pretty": true,
+      "preserveConstEnums": true,
+      "strictNullChecks": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "noUnusedLocals": true
+    }
+  }
