@@ -1,13 +1,13 @@
 {
   "name": "dotted-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
     "test": "jest",
     "build": "rm -rf ./lib && tsc",
-    "prepack": "yarn test"
+    "prepack": "yarn test && yarn build"
   },
   "peerDependencies": {},
   "devDependencies": {
