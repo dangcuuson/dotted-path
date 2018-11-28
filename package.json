@@ -9,7 +9,9 @@
     "build": "rm -rf ./lib && tsc",
     "prepack": "yarn test && yarn build"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "typescript": ">=2.9"
+  },
   "devDependencies": {
     "@types/jest": "23.3.9",
     "jest": "23.6.0",

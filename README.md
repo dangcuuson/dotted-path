@@ -2,6 +2,7 @@
 
 Dot notation is widely used in popular library such as `lodash`, `mongodb`,`immutable.js` (not really dot notation but same same) etc.
 This library utilize Typescript's conditional type to help create a dotted path notation in a type-safed way.
+Requires Typescript >= 2.9
 
 ```typescript
 type TestType = {
